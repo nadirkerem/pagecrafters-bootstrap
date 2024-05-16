@@ -6,8 +6,8 @@ PageCrafters is a conceptual web design platform built with HTML, CSS, and Boots
 
 - **Bootstrap**: Utilized for responsive layout and styling to ensure the website looks great on all devices.
 - **Custom CSS**: Enhances visual elements.
--
-- ## Live Site
+
+## Live Site
 
 [View Live Site](https://pagecrafters-bootstrap.vercel.app/)
 

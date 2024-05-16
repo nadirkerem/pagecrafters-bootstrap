@@ -1,0 +1,20 @@
+body {
+  background-image: linear-gradient(
+    180deg,
+    var(--bs-secondary-bg),
+    var(--bs-body-bg) 100px,
+    var(--bs-body-bg)
+  );
+}
+
+/* FLEXBOX */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form input,
+.contact-form button {
+  width: 100%;
+}

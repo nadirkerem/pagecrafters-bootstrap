@@ -13,7 +13,7 @@
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="../styles/contact.css">
 </head>
 
 <body>
@@ -29,13 +29,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pages/pricing.html">Pricing</a>
+              <a class="nav-link" href="pricing.html">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pages/contact.html">Contact Us</a>
+              <a class="nav-link" href="contact.html">Contact Us</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -62,31 +62,42 @@
   </header>
   <!-- HEADER END -->
 
-  <!-- HERO -->
-  <main>
-    <div class="container col-xxl-8 px-4 py-5">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-          <img src="images/themes.png" class="d-block mx-lg-auto img-fluid" alt="Themes" width="700" height="500"
-            loading="lazy">
-        </div>
-        <div class="col-lg-6">
-          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Elevate Your Business with Custom Web Pages</h1>
-          <p class="lead">Bring your brand to life online with our expert web design services. At PageCrafters, we
-            specialize in crafting bespoke web pages that capture the essence of your business, engage your audience,
-            and drive growth. Whether you're looking to launch a new site or revamp an existing one, our tailored
-            solutions are designed to meet your specific needs and exceed your expectations.</p>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <a href="pages/pricing.html"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Get
-                Started</button></a>
+  <!-- CONTACT FORM -->
 
-          </div>
-        </div>
+  <div class="contact-header p-3 pb-md-4 mx-auto text-center">
+    <h1 class="display-4 fw-normal text-body-emphasis">Contact Us</h1>
+  </div>
+
+  <div class="contact-form text-center">
+
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
       </div>
-    </div>
-  </main>
-  <!-- HERO END -->
+      <div class="mb-3">
+        <label for="exampleInputName1" class="form-label">Name</label>
+        <input type="text" class="form-control" id="exampleInputName1">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputSelect1" class="form-label">Select a Plan</label>
+        <select class="form-select" aria-label="Starter" id="exampleInputSelect1">
+          <option selected value="starter">Starter</option>
+          <option value="professional">Professional</option>
+          <option value="enterprise">Enterprise</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputText1" class="form-label">Message</label>
+        <textarea class="form-control" id="exampleInputText1" rows="5"></textarea>
+      </div>
 
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <!-- CONTACT FORM END -->
 
   <!-- FOOTER -->
   <div class="container">
@@ -95,12 +106,10 @@
         <div class="col-12 col-md-7 mb-3">
           <h5>Section</h5>
           <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Home</a></li>
-            <li class="nav-item mb-2"><a href="pages/contact.html" class="nav-link p-0 text-body-secondary">Contact
-                Us</a>
+            <li class="nav-item mb-2"><a href="../index.html" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-body-secondary">Contact Us</a>
             </li>
-            <li class="nav-item mb-2"><a href="pages/pricing.html" class="nav-link p-0 text-body-secondary">Pricing</a>
-            </li>
+            <li class="nav-item mb-2"><a href="pricing.html" class="nav-link p-0 text-body-secondary">Pricing</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
           </ul>
         </div>

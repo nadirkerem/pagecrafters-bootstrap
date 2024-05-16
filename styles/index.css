@@ -6,3 +6,29 @@ body {
     var(--bs-body-bg)
   );
 }
+
+#hero-image {
+  margin-left: 20px !important;
+  animation: moveLefttoRight 2s;
+  animation-iteration-count: infinite;
+}
+
+main .btn {
+  transition: transform 0.3s;
+}
+
+main .btn:hover {
+  transform: scale(1.1);
+}
+
+@keyframes moveLefttoRight {
+  0% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(-5%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}

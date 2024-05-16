@@ -6,3 +6,20 @@ body {
     var(--bs-body-bg)
   );
 }
+
+#professional-plan-card {
+  animation: jumpingCard 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes jumpingCard {
+  0% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateY(-5%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}

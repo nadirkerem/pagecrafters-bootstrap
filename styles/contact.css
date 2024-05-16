@@ -7,6 +7,10 @@ body {
   );
 }
 
+body:hover {
+  cursor: default;
+}
+
 /* FLEXBOX */
 .contact-form {
   display: flex;

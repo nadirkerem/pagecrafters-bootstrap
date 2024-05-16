@@ -7,6 +7,10 @@ body {
   );
 }
 
+body:hover {
+  cursor: default;
+}
+
 #hero-image {
   margin-left: 20px !important;
   animation: moveLefttoRight 2s;

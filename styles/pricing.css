@@ -7,6 +7,10 @@ body {
   );
 }
 
+body:hover {
+  cursor: default;
+}
+
 #professional-plan-card {
   animation: jumpingCard 2s;
   animation-iteration-count: infinite;
